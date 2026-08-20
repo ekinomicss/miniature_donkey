@@ -12,7 +12,6 @@ import { useCallback, useEffect, useRef, useState } from 'react'
 
 const favoriteMovies = [
     '2001: A Space Odyssey (1968)',
-    'The Matrix (1999)',
     'Before Sunset (2004)',
     "Pan's Labyrinth (2006)",
     'There Will Be Blood (2007)',
@@ -24,6 +23,7 @@ const favoriteMovies = [
     'Perfect Days (2023)',
     'Crossing (2024)',
     'Bugonia (2025)',
+    'Train Dreams (2025)',
 ] as const
 
 const favoriteBooks: { title: string; author: string }[] = [
@@ -46,9 +46,6 @@ const currentMusicObsession = [
     'Altın Gün',
     'Ezra Collective',
     'Angine de Poitrine',
-    'Harry Nilsson',
-    'Fleetwood Mac',
-    'Tame Impala — new album',
 ] as const
 
 const NAV_HASHES = ['#about', '#work', '#fun', '#contact'] as const
