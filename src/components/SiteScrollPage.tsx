@@ -271,7 +271,6 @@ export default function SiteScrollPage() {
                                             <p className="text-xs uppercase tracking-[0.12em] text-gray-400">{item.venue}</p>
                                         </div>
                                         <h2 className="mt-2 text-xl font-semibold text-gray-100">{item.title}</h2>
-                                        <p className="mt-1 text-sm text-gray-400">{item.role}</p>
 
                                         <ul
                                             className="mt-4 list-none space-y-2.5 border-l border-emerald-500/25 pl-4 text-sm text-gray-300 sm:pl-5 sm:text-base"

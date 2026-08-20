@@ -2,7 +2,6 @@ export type WorkBlock = {
     date: string
     title: string
     venue: string
-    role: string
     links: { label: string; href: string }[]
     highlights: string[]
     previewImage: string
@@ -10,10 +9,43 @@ export type WorkBlock = {
 
 export const workBlocks: WorkBlock[] = [
     {
+        date: 'Jul 21, 2026',
+        title: 'Cheating behaviour in frontier model evaluations',
+        venue: 'AISI Blog',
+        links: [
+            {
+                label: 'Blog',
+                href: 'https://www.aisi.gov.uk/blog/cheating-behaviour-in-frontier-model-evaluations',
+            },
+        ],
+        highlights: [
+            'Finds attempted cheating in every model tested on AISI cyber capability evaluations.',
+            'Shows self-report and chain-of-thought monitoring are unreliable for detecting cheating.',
+            'Discusses evaluation validity, oversight limits, and risks as models become more capable.',
+        ],
+        previewImage: '/work-previews/cheating-behaviour-2026.png',
+    },
+    {
+        date: 'May 13, 2026',
+        title: 'How fast is autonomous AI cyber capability advancing?',
+        venue: 'AISI Blog',
+        links: [
+            {
+                label: 'Blog',
+                href: 'https://www.aisi.gov.uk/blog/how-fast-is-autonomous-ai-cyber-capability-advancing',
+            },
+        ],
+        highlights: [
+            'Tracks 80%-reliability cyber time horizons on AISI’s narrow suite (2.5M token budget).',
+            'Finds task length doubling on the order of months; Mythos Preview and GPT-5.5 exceeded prior trends.',
+            'A newer Mythos Preview checkpoint completed both cyber ranges, including the previously unsolved Cooling Tower.',
+        ],
+        previewImage: '/work-previews/cyber-time-horizons-2026.png',
+    },
+    {
         date: 'Apr 13, 2026',
         title: 'Our evaluation of Claude Mythos Preview\u2019s cyber capabilities',
         venue: 'AISI Blog',
-        role: 'Contributor',
         links: [
             {
                 label: 'Blog',
@@ -31,7 +63,6 @@ export const workBlocks: WorkBlock[] = [
         date: 'Mar 13, 2026',
         title: "Measuring AI Agents' Progress on Multi-Step Cyber Attack Scenarios",
         venue: 'arXiv (cs.AI)',
-        role: 'Co-author',
         links: [{ label: 'Paper', href: 'https://arxiv.org/html/2603.11214v2' }],
         highlights: [
             'Evaluates autonomous cyber capability on two multi-step ranges.',
@@ -44,7 +75,6 @@ export const workBlocks: WorkBlock[] = [
         date: 'Feb 25, 2026',
         title: 'Seven simple steps for log analysis in AI systems',
         venue: 'arXiv (cs.AI)',
-        role: 'Co-author',
         links: [
             { label: 'Paper', href: 'https://arxiv.org/abs/2604.09563' },
             { label: 'AISI page', href: 'https://www.aisi.gov.uk/research/seven-simple-steps-for-log-analysis-in-ai-systems' },
@@ -59,7 +89,6 @@ export const workBlocks: WorkBlock[] = [
         date: 'Jan 22, 2026',
         title: 'Improving Methodologies for Agentic Evaluations Across Domains',
         venue: 'arXiv (cs.AI)',
-        role: 'Co-author',
         links: [{ label: 'Paper', href: 'https://arxiv.org/abs/2601.15679' }],
         highlights: [
             'International collaboration on agentic evaluation methods across cybersecurity, fraud, and data leakage.',
@@ -71,7 +100,6 @@ export const workBlocks: WorkBlock[] = [
         date: 'Dec 18, 2025',
         title: 'Frontier AI Trends Report',
         venue: 'AISI',
-        role: 'Contributor',
         links: [
             { label: 'Report', href: 'https://www.aisi.gov.uk/frontier-ai-trends-report/pdf' },
             { label: 'AISI page', href: 'https://www.aisi.gov.uk/frontier-ai-trends-report' },
@@ -86,7 +114,6 @@ export const workBlocks: WorkBlock[] = [
         date: 'Q4 2022',
         title: 'Should Your Portfolio Protection Work Fast or Slow?',
         venue: 'AQR Alternative Thinking',
-        role: 'Contributor',
         links: [
             {
                 label: 'Article',
